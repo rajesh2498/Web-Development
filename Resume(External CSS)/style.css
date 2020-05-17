@@ -1,0 +1,26 @@
+body
+{
+    background-color: aquamarine;
+}
+img
+{
+    width: 150;
+    height: 150;
+}
+table
+{
+    text-align: center;
+    background-color: burlywood;
+    cellspacing = "0";
+    padding: 800;
+}
+table, td, th
+{
+    border: 1px solid cadetblue;
+    padding: 2 2;
+}
+fieldset
+{
+    background-color: cornflowerblue;
+    margin: auto;
+}

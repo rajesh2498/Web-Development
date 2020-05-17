@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+
+        body
+        {
+            background-color: aquamarine;
+        }
+        
+        fieldset
+        {
+            width: auto;
+            margin: auto;
+            background-color: lightblue;
+        }
+        legend
+        {
+            font-size: medium;
+            font-family :initial;
+            font-style: normal;
+        }
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <form action="resume.html">
+    <fieldset>
+    <center> <h2>Registration Form</h2></center> <br> <br> <br>
+    Full Name : <br>
+    <input type="text" placeholder="Enter your Full Name" size="35"> <br> <br>
+    Email : <br>
+    <input type="email" placeholder="Enter your Email" size="35"> <br> <br>
+    Password : <br>
+    <input type="password" placeholder="Enter your Password"> <br> <br>
+    Address : <br>
+    <textarea name="Address" id="" cols="30" rows="4" placeholder="Enter your Address"></textarea> <br> <br>
+    Phone No. : <br>
+    <input type="number" placeholder="Enter mobile number"> <br> <br>
+    DOB : <br>
+    <input type="date" name="" id="" placeholder="DD/MM/YYYY"> <br> <br>
+    Upload Your Resume <br>
+    <input type="File"> <br> <br>
+    Select Gender <br>
+    <input type="radio" name="Gender" id="">Male <br>
+    <input type="radio" name="Gender" id="">Female <br>
+    <br><br>
+
+    Select Education : <br>
+    <input type="checkbox" name="" id="">10<sup>th</sup> <br>
+    <input type="checkbox" name="" id="">12<sup>th</sup> <br>
+    <input type="checkbox" name="" id="">Graduation <br> <br>
+
+    Select State  <br>
+    <select name="State" id="">
+        <option value="State">Select State</option>
+        <option value="State">Maharashtra</option>
+        <option value="STate">Gujrat</option>
+        <option value="State">Rajsthan</option>
+
+    </select>
+    <br> <br>
+   
+    Enter City : <br>
+    
+    <input list="city" placeholder="Enter your city">
+    <datalist id="city">
+        <option value="Mumbai">
+        <option value="Pune">
+        <option value="Nagpur">
+        <option value="Nashik">
+        <option value="Baramati">
+    </datalist>
+    <br> <br>
+
+    <input type="color" name="FavColor" id="">
+    <br>
+    <center> 
+       <input type="submit" value="Sumbit"> </> 
+        <input type="reset" value="Reset">
+    </center>
+</fieldset>
+</form>
+
+</body>
+</html>
